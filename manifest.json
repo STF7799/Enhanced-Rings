@@ -1,0 +1,10 @@
+{
+  "Name": "EnhancedRings",
+  "Author": "STF7799",
+  "Version": "1.7.0",
+  "Description": "More Rings", 
+  "UniqueID": "STF7799.EnhancedRings",
+  "EntryDll": "Enhanced Rings.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:39744"]
+}

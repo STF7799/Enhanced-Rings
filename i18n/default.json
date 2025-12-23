@@ -1,0 +1,256 @@
+{
+  // ==================== RING NAMES & DESCRIPTIONS ====================
+  
+  // Burglar Rings - Name
+  "ring.burglar-plus.name": "Burglar Ring+",
+  "ring.burglar-plus2.name": "Burglar Ring++",
+  "ring.burglar-plus3.name": "Burglar Ring+++",
+  
+  // Burglar Rings - Description
+  "ring.burglar-plus.description": "Slightly increases monster drops",
+  "ring.burglar-plus2.description": "Increases monster drops", 
+  "ring.burglar-plus3.description": "Greatly increases monster drops",
+  
+  // Monster Spawn Rings - Name
+  "ring.monster-spawn.name": "Monster Spawn Ring",
+  "ring.monster-spawn2.name": "Monster Spawn Ring+",
+  "ring.monster-spawn3.name": "Monster Spawn Ring++",
+  
+  // Monster Spawn Rings - Description
+  "ring.monster-spawn.description": "Increases monster spawn rate in mines",
+  "ring.monster-spawn2.description": "Greatly increases monster spawn rate in mines",
+  "ring.monster-spawn3.description": "Drastically increases monster spawn rate in mines",
+
+  // Combined Rings - Name
+  "ring.ruby-combined.name": "Ruby Combined Ring",
+  "ring.ruby-combined-plus.name": "Ruby Combined Ring+",
+  "ring.emerald-combined.name": "Emerald Combined Ring",
+  "ring.emerald-combined-plus.name": "Emerald Combined Ring+",
+  "ring.jade-combined.name": "Jade Combined Ring",
+  "ring.jade-combined-plus.name": "Jade Combined Ring+",
+  "ring.aquamarine-combined.name": "Aquamarine Combined Ring",
+  "ring.aquamarine-combined-plus.name": "Aquamarine Combined Ring+",
+  "ring.iridium-alpha.name": "Iridium Band Alpha",
+  
+  // Combined Rings - Description
+  "ring.ruby-combined.description": "Combined ruby power. Slightly increases attack multiplier.",
+  "ring.ruby-combined-plus.description": "Enhanced ruby power. Greatly increases attack multiplier.",
+  "ring.emerald-combined.description": "Combined emerald power. Slightly increases weapon speed.",
+  "ring.emerald-combined-plus.description": "Enhanced emerald power. Greatly increases weapon speed.",
+  "ring.jade-combined.description": "Combined jade power. Slightly increases critical power.",
+  "ring.jade-combined-plus.description": "Enhanced jade power. Greatly increases critical power.",
+  "ring.aquamarine-combined.description": "Combined aquamarine power. Slightly increases critical chance.",
+  "ring.aquamarine-combined-plus.description": "Enhanced aquamarine power. Greatly increases critical chance.",
+  "ring.iridium-alpha.description": "Slightly increases attack, speed, crit power, and crit chance.",
+  
+  // Napalm Rings - Name
+  "ring.napalm-plus.name": "Napalm Ring+",
+  "ring.napalm-plus2.name": "Napalm Ring++", 
+  "ring.napalm-plus3.name": "Napalm Ring+++",
+  
+  // Napalm Rings - Description
+  "ring.napalm-plus.description": "Killing monsters causes explosion with small tile radius",
+  "ring.napalm-plus2.description": "Killing monsters causes explosion with medium tile radius",
+  "ring.napalm-plus3.description": "Killing monsters causes explosion with large tile radius",
+  
+  // Chef Rings - Name
+  "ring.chef.name": "Sous Chef Ring",
+  "ring.chef2.name": "Chef Ring", 
+  "ring.chef3.name": "Master Chef Ring",
+  
+  // Chef Rings - Description
+  "ring.chef.description": "Though it looks like a dinner plate, it fits on your finger. Allows you to cook better dishes.",
+  "ring.chef2.description": "A wonderful aroma flows around it, further improving the quality of dishes you cook.",
+  "ring.chef3.description": "You feel the mystery of the universe, it's time to reveal the true form of ingredients.",
+  
+  // Lucky Rings - Name
+  "ring.lucky-plus.name": "Blessing Ring",
+  "ring.lucky-plus2.name": "Fate Ring",
+  
+  // Lucky Rings - Description
+  "ring.lucky-plus.description": "Lady Luck is smiling",
+  "ring.lucky-plus2.description": "Fortune favors the bold",
+  
+  // Fishing Rings - Name
+  "ring.extrafish1.name": "Extra Fish Ring I",
+  "ring.extrafish2.name": "Extra Fish Ring II",
+  "ring.extrafish3.name": "Extra Fish Ring III",
+  "ring.quality1.name": "Quality Ring I",
+  "ring.quality2.name": "Quality Ring II",
+  "ring.quality3.name": "Quality Ring III",
+  
+  // Fishing Rings - Description
+  "ring.extrafish1.description": "Catch extra fish when fishing",
+  "ring.extrafish2.description": "Catch more extra fish when fishing",
+  "ring.extrafish3.description": "Catch many extra fish when fishing",
+  "ring.quality1.description": "Improves minimum fish and crop quality to silver",
+  "ring.quality2.description": "Improves minimum fish and crop quality to gold",
+  "ring.quality3.description": "Improves minimum fish and crop quality to iridium",
+  
+  // Legendary Fish Ring - Name
+  "ring.lfish.name": "Legendary Fish Ring",
+  
+  // Legendary Fish Ring - Description
+  "ring.lfish.description": "A ring that allows you to catch Legendary Fish II anytime.",
+  
+  // ==================== CRAFTING RECIPE NAMES ====================
+  "crafting.burglar-plus.name": "Burglar Ring+",
+  "crafting.burglar-plus2.name": "Burglar Ring++",
+  "crafting.burglar-plus3.name": "Burglar Ring+++",
+  "crafting.monster-spawn.name": "Monster Spawn Ring",
+  "crafting.monster-spawn2.name": "Monster Spawn Ring+",
+  "crafting.monster-spawn3.name": "Monster Spawn Ring++",
+  "crafting.ruby-combined.name": "Ruby Combined Ring",
+  "crafting.ruby-combined-plus.name": "Ruby Combined Ring+",
+  "crafting.emerald-combined.name": "Emerald Combined Ring",
+  "crafting.emerald-combined-plus.name": "Emerald Combined Ring+",
+  "crafting.jade-combined.name": "Jade Combined Ring",
+  "crafting.jade-combined-plus.name": "Jade Combined Ring+",
+  "crafting.aquamarine-combined.name": "Aquamarine Combined Ring",
+  "crafting.aquamarine-combined-plus.name": "Aquamarine Combined Ring+",
+  "crafting.iridium-alpha.name": "Iridium Band Alpha",
+  "crafting.napalm-plus.name": "Napalm Ring+",
+  "crafting.napalm-plus2.name": "Napalm Ring++",
+  "crafting.napalm-plus3.name": "Napalm Ring+++",
+  "crafting.chef.name": "Sous Chef Ring",
+  "crafting.chef2.name": "Chef Ring",
+  "crafting.chef3.name": "Master Chef Ring",
+  "crafting.lucky-plus.name": "Blessing Ring",
+  "crafting.lucky-plus2.name": "Fate Ring",
+  "crafting.extrafish1.name": "Extra Fish Ring I",
+  "crafting.extrafish2.name": "Extra Fish Ring II",
+  "crafting.extrafish3.name": "Extra Fish Ring III",
+  "crafting.quality1.name": "Quality Ring I",
+  "crafting.quality2.name": "Quality Ring II",
+  "crafting.quality3.name": "Quality Ring III",
+  "crafting.lfish.name": "Legendary Fish Ring",
+  
+  // ==================== CONFIGURATION ====================
+  
+  // Config - Section Titles
+  "config.section.burglar.title": "Burglar Ring Configuration",
+  "config.section.burglar.tooltip": "Configure the effects of Burglar Ring enhancements",
+  "config.section.monster-spawn.title": "Monster Spawn Ring Configuration",
+  "config.section.monster-spawn.tooltip": "Configure monster spawn rate multipliers",
+  "config.section.combined-rings.title": "Combined Rings Configuration",
+  "config.section.combined-rings.tooltip": "Configure the effects of combined rings",
+  "config.section.iridium-alpha.title": "Iridium Band Alpha Configuration", 
+  "config.section.iridium-alpha.tooltip": "Configure Iridium Band Alpha effects",
+  "config.section.napalm.title": "Napalm Ring Configuration",
+  "config.section.napalm.tooltip": "Configure Napalm Ring explosion radius",
+  "config.section.lucky.title": "Lucky Ring Configuration",
+  "config.section.lucky.tooltip": "Configure the effects of Lucky Ring enhancements",
+  "config.section.fishing.title": "Fishing Ring Configuration",
+  "config.section.fishing.tooltip": "Configure the effects of fishing rings",
+  "config.section.recipes.title": "Recipe Settings",
+  "config.section.recipes.tooltip": "Enable or disable various ring crafting recipes",
+  "config.section.patches.title": "Patch Settings",
+  "config.section.patches.tooltip": "Enable or disable various feature patches",
+
+  // Config - Burglar Rings
+  "config.burglarringplus.rounds.name": "Burglar Ring+ Drop Rounds",
+  "config.burglarringplus.rounds.tooltip": "Additional item drop rounds when wearing Burglar Ring+",
+  "config.burglarringplus2.rounds.name": "Burglar Ring++ Drop Rounds",
+  "config.burglarringplus2.rounds.tooltip": "Additional item drop rounds when wearing Burglar Ring++",
+  "config.burglarringplus3.rounds.name": "Burglar Ring+++ Drop Rounds",
+  "config.burglarringplus3.rounds.tooltip": "Additional item drop rounds when wearing Burglar Ring+++",
+
+  // Config - Monster Spawn Rings
+  "config.monsterspawnring.multiplier.name": "Spawn Ring Multiplier",
+  "config.monsterspawnring.multiplier.tooltip": "Monster spawn rate multiplier for Monster Spawn Ring",
+  "config.monsterspawnring2.multiplier.name": "Spawn Ring+ Multiplier",
+  "config.monsterspawnring2.multiplier.tooltip": "Monster spawn rate multiplier for Monster Spawn Ring+",
+  "config.monsterspawnring3.multiplier.name": "Spawn Ring++ Multiplier",
+  "config.monsterspawnring3.multiplier.tooltip": "Monster spawn rate multiplier for Monster Spawn Ring++",
+  "config.maxmonsterspawnchance.name": "Max Spawn Chance",
+  "config.maxmonsterspawnchance.tooltip": "Maximum monster spawn probability limit",
+  "config.affectskullcavern.name": "Affect Skull Cavern", 
+  "config.affectskullcavern.tooltip": "Whether to affect monster spawns in Skull Cavern",
+  "config.affectvolcanodungeon.name": "Affect Volcano Dungeon",
+  "config.affectvolcanodungeon.tooltip": "Whether to affect monster spawns in Volcano Dungeon",
+  
+  // Config - Combined Rings
+  "config.ruby-combined.multiplier.name": "Ruby Combined Ring Multiplier",
+  "config.ruby-combined.multiplier.tooltip": "Attack multiplier for Ruby Combined Ring",
+  "config.ruby-combined-plus.multiplier.name": "Ruby Combined Ring+ Multiplier",
+  "config.ruby-combined-plus.multiplier.tooltip": "Attack multiplier for Ruby Combined Ring+",
+
+  "config.emerald-combined.multiplier.name": "Emerald Combined Ring Multiplier", 
+  "config.emerald-combined.multiplier.tooltip": "Weapon speed multiplier for Emerald Combined Ring",
+  "config.emerald-combined-plus.multiplier.name": "Emerald Combined Ring+ Multiplier",
+  "config.emerald-combined-plus.multiplier.tooltip": "Weapon speed multiplier for Emerald Combined Ring+",
+
+  "config.jade-combined.multiplier.name": "Jade Combined Ring Multiplier",
+  "config.jade-combined.multiplier.tooltip": "Critical power multiplier for Jade Combined Ring",
+  "config.jade-combined-plus.multiplier.name": "Jade Combined Ring+ Multiplier",
+  "config.jade-combined-plus.multiplier.tooltip": "Critical power multiplier for Jade Combined Ring+",
+
+  "config.aquamarine-combined.multiplier.name": "Aquamarine Combined Ring Multiplier",
+  "config.aquamarine-combined.multiplier.tooltip": "Critical chance multiplier for Aquamarine Combined Ring",
+  "config.aquamarine-combined-plus.multiplier.name": "Aquamarine Combined Ring+ Multiplier", 
+  "config.aquamarine-combined-plus.multiplier.tooltip": "Critical chance multiplier for Aquamarine Combined Ring+",
+  
+  // Config - Iridium Band Settings
+  "config.iridium-alpha.attack.multiplier.name": "Iridium Band Attack Multiplier",
+  "config.iridium-alpha.attack.multiplier.tooltip": "Attack multiplier for Iridium Band Alpha",
+  "config.iridium-alpha.speed.multiplier.name": "Iridium Band Speed Multiplier",
+  "config.iridium-alpha.speed.multiplier.tooltip": "Weapon speed multiplier for Iridium Band Alpha",
+  "config.iridium-alpha.crit-power.multiplier.name": "Iridium Band Crit Power Multiplier",
+  "config.iridium-alpha.crit-power.multiplier.tooltip": "Critical power multiplier for Iridium Band Alpha",
+  "config.iridium-alpha.crit-chance.multiplier.name": "Iridium Band Crit Chance Multiplier",
+  "config.iridium-alpha.crit-chance.tooltip": "Critical chance multiplier for Iridium Band Alpha",
+  
+  // Config - Napalm Rings
+  "config.napalmringplus.radius.name": "Napalm Ring+ Explosion Radius",
+  "config.napalmringplus.radius.tooltip": "Explosion radius for Napalm Ring+",
+  "config.napalmringplus2.radius.name": "Napalm Ring++ Explosion Radius", 
+  "config.napalmringplus2.radius.tooltip": "Explosion radius for Napalm Ring++",
+  "config.napalmringplus3.radius.name": "Napalm Ring+++ Explosion Radius",
+  "config.napalmringplus3.radius.tooltip": "Explosion radius for Napalm Ring+++",
+  
+  // Config - Lucky Rings
+  "config.luckyringplus.luck.name": "Blessing Ring Luck Bonus",
+  "config.luckyringplus.luck.tooltip": "Luck bonus provided by Blessing Ring",
+  "config.luckyringplus2.luck.name": "Fate Ring Luck Bonus",
+  "config.luckyringplus2.luck.tooltip": "Luck bonus provided by Fate Ring",
+
+  // Config - Fishing Rings
+  "config.extra-fish-num1.name": "Fishing Ring 1 Extra Fish",
+  "config.extra-fish-num1.tooltip": "Extra fish caught when wearing Fishing Ring 1",
+  "config.extra-fish-num2.name": "Fishing Ring 2 Extra Fish",
+  "config.extra-fish-num2.tooltip": "Extra fish caught when wearing Fishing Ring 2",
+  "config.extra-fish-num3.name": "Fishing Ring 3 Extra Fish",
+  "config.extra-fish-num3.tooltip": "Extra fish caught when wearing Fishing Ring 3",
+  "config.enable-fish-ring-patch.name": "Enable Fishing Ring Effects",
+  "config.enable-fish-ring-patch.tooltip": "If errors occur when fishing, try disabling this option. Requires restart.",
+  "config.enable-notfish-available.name": "Enable quality bonuses for non-fish (Wow, iridium trash!)",
+  "config.enable-notfish-available.tooltip": "If enabled, quality rings will also affect non-fish items (trash, algae, etc.)",
+
+  // Config - Recipe Settings
+  "config.enable-combined-ring-recipes.name": "Enable Combined Ring Recipes (Requires Restart)",
+  "config.enable-combined-ring-recipes.tooltip": "Whether to enable combined ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-iridium-band-recipe.name": "Enable Iridium Band Recipe (Requires Restart)",
+  "config.enable-iridium-band-recipe.tooltip": "Whether to enable Iridium Band Alpha crafting recipe. Since recipes are cached at startup, a game restart is required",
+  "config.enable-burglar-ring-recipes.name": "Enable Burglar Ring Recipes (Requires Restart)",
+  "config.enable-burglar-ring-recipes.tooltip": "Whether to enable Burglar Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-monster-spawn-ring-recipes.name": "Enable Monster Spawn Ring Recipes (Requires Restart)", 
+  "config.enable-monster-spawn-ring-recipes.tooltip": "Whether to enable Monster Spawn Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-napalm-ring-recipes.name": "Enable Napalm Ring Recipes (Requires Restart)",
+  "config.enable-napalm-ring-recipes.tooltip": "Whether to enable Napalm Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-chef-ring-recipes.name": "Enable Chef Ring Recipes (Requires Restart)",
+  "config.enable-chef-ring-recipes.tooltip": "Whether to enable Chef Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-lucky-ring-recipes.name": "Enable Lucky Ring Recipes (Requires Restart)",
+  "config.enable-lucky-ring-recipes.tooltip": "Whether to enable Lucky Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-fish-ring-recipes.name": "Enable Fish Ring Recipes (Requires Restart)",
+  "config.enable-fish-ring-recipes.tooltip": "Whether to enable fishing ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  "config.enable-lfish-ring-recipe.name": "Enable Legendary Fish Ring Recipe (Requires Restart)",
+  "config.enable-lfish-ring-recipe.tooltip": "Whether to enable Legendary Fish Ring crafting recipe. Since recipes are cached at startup, a game restart is required",
+  "config.enable-quality-ring-recipes.name": "Enable Quality Ring Recipes (Requires Restart)",
+  "config.enable-quality-ring-recipes.tooltip": "Whether to enable Quality Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+
+  // Config - Patch Settings
+  "config.enable-chef-ring-patch.name": "Enable Chef Ring Effects",
+  "config.enable-chef-ring-patch.tooltip": "If errors occur when cooking dishes, try disabling this option. Requires restart.",
+  "config.enable-lfish-ring-patch.name": "Enable Legendary Fish Ring Effects",
+  "config.enable-lfish-ring-patch.tooltip": "If errors occur when fishing legendary fish, try disabling this option. Requires restart."
+}

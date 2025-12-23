@@ -1,0 +1,256 @@
+{
+  // ==================== 戒指名称与描述 ====================
+  
+  // 窃贼戒指 - 名称
+  "ring.burglar-plus.name": "窃贼戒指+",
+  "ring.burglar-plus2.name": "窃贼戒指++", 
+  "ring.burglar-plus3.name": "窃贼戒指+++",
+  
+  // 窃贼戒指 - 描述
+  "ring.burglar-plus.description": "略微增加怪物掉落物品",
+  "ring.burglar-plus2.description": "增加怪物掉落物品",
+  "ring.burglar-plus3.description": "大幅增加怪物掉落物品",
+  
+  // 怪物生成戒指 - 名称
+  "ring.monster-spawn.name": "怪物生成戒指",
+  "ring.monster-spawn2.name": "怪物生成戒指+",
+  "ring.monster-spawn3.name": "怪物生成戒指++",
+  
+  // 怪物生成戒指 - 描述
+  "ring.monster-spawn.description": "增加矿洞中怪物的生成率",
+  "ring.monster-spawn2.description": "大幅增加矿洞中怪物的生成率",
+  "ring.monster-spawn3.description": "极大增加矿洞中怪物的生成率",
+
+  // 组合戒指 - 名称
+  "ring.ruby-combined.name": "红宝石组合戒指",
+  "ring.ruby-combined-plus.name": "红宝石组合戒指+",
+  "ring.emerald-combined.name": "绿宝石组合戒指",
+  "ring.emerald-combined-plus.name": "绿宝石组合戒指+",
+  "ring.jade-combined.name": "玉石组合戒指",
+  "ring.jade-combined-plus.name": "玉石组合戒指+",
+  "ring.aquamarine-combined.name": "海蓝宝石组合戒指",
+  "ring.aquamarine-combined-plus.name": "海蓝宝石组合戒指+",
+  "ring.iridium-alpha.name": "铱环Alpha",
+  
+  // 组合戒指 - 描述
+  "ring.ruby-combined.description": "组合红宝石力量。小幅提升攻击倍率。",
+  "ring.ruby-combined-plus.description": "强化红宝石力量。大幅提升攻击倍率。",
+  "ring.emerald-combined.description": "组合绿宝石力量。小幅提升武器速度。",
+  "ring.emerald-combined-plus.description": "强化绿宝石力量。大幅提升武器速度。",
+  "ring.jade-combined.description": "组合玉石力量。小幅提升暴击力量。",
+  "ring.jade-combined-plus.description": "强化玉石力量。大幅提升暴击力量。",
+  "ring.aquamarine-combined.description": "组合海蓝宝石力量。小幅提升暴击机会。",
+  "ring.aquamarine-combined-plus.description": "强化海蓝宝石力量。大幅提升暴击机会。",
+  "ring.iridium-alpha.description": "小幅提升攻击、速度、暴击力量和暴击机会。",
+  
+  // 燃烧弹戒指 - 名称
+  "ring.napalm-plus.name": "燃烧弹戒指+",
+  "ring.napalm-plus2.name": "燃烧弹戒指++",
+  "ring.napalm-plus3.name": "燃烧弹戒指+++",
+  
+  // 燃烧弹戒指 - 描述
+  "ring.napalm-plus.description": "杀死怪物时引发小半径爆炸",
+  "ring.napalm-plus2.description": "杀死怪物时引发中等半径爆炸", 
+  "ring.napalm-plus3.description": "杀死怪物时引发大半径爆炸",
+  
+  // 厨师戒指 - 名称
+  "ring.chef.name": "助手戒指",
+  "ring.chef2.name": "厨师戒指",
+  "ring.chef3.name": "主厨戒指",
+  
+  // 厨师戒指 - 描述
+  "ring.chef.description": "虽然看起来像餐盘，不过确实戴得上。可以让你制作更好的菜肴",
+  "ring.chef2.description": "奇妙的香气在其上流转，使你制作菜肴的品质进一步提升", 
+  "ring.chef3.description": "你感受到了宇宙的奥秘，是时候展现原料的真实模样了",
+  
+  // 幸运戒指 - 名称
+  "ring.lucky-plus.name": "祝福戒指",
+  "ring.lucky-plus2.name": "命运戒指",
+  
+  // 幸运戒指 - 描述
+  "ring.lucky-plus.description": "福星高照",
+  "ring.lucky-plus2.description": "鸿运当头",
+  
+  // 钓鱼戒指 - 名称
+  "ring.extrafish1.name": "多鱼戒指 I",
+  "ring.extrafish2.name": "多鱼戒指 II",
+  "ring.extrafish3.name": "多鱼戒指 III",
+  "ring.quality1.name": "品质戒指 I",
+  "ring.quality2.name": "品质戒指 II",
+  "ring.quality3.name": "品质戒指 III",
+  
+  // 钓鱼戒指 - 描述
+  "ring.extrafish1.description": "钓鱼时可捕获额外鱼类",
+  "ring.extrafish2.description": "钓鱼时可捕获更多额外鱼类",
+  "ring.extrafish3.description": "钓鱼时可捕获大量额外鱼类",
+  "ring.quality1.description": "提高钓鱼和农业作物的最低品质为银星",
+  "ring.quality2.description": "提高钓鱼和农业作物的最低品质为金星",
+  "ring.quality3.description": "提高钓鱼和农业作物的最低品质为铱星",
+  
+  // 传说鱼戒指 - 名称
+  "ring.lfish.name": "传说鱼戒指",
+  
+  // 传说鱼戒指 - 描述
+  "ring.lfish.description": "可以随时钓到传说鱼二代的戒指。",
+  
+  // ==================== 制作配方名称 ====================
+  "crafting.burglar-plus.name": "窃贼戒指+",
+  "crafting.burglar-plus2.name": "窃贼戒指++",
+  "crafting.burglar-plus3.name": "窃贼戒指+++",
+  "crafting.monster-spawn.name": "怪物生成戒指",
+  "crafting.monster-spawn2.name": "怪物生成戒指+",
+  "crafting.monster-spawn3.name": "怪物生成戒指++",
+  "crafting.ruby-combined.name": "红宝石组合戒指",
+  "crafting.ruby-combined-plus.name": "红宝石组合戒指+",
+  "crafting.emerald-combined.name": "绿宝石组合戒指",
+  "crafting.emerald-combined-plus.name": "绿宝石组合戒指+",
+  "crafting.jade-combined.name": "玉石组合戒指",
+  "crafting.jade-combined-plus.name": "玉石组合戒指+",
+  "crafting.aquamarine-combined.name": "海蓝宝石组合戒指",
+  "crafting.aquamarine-combined-plus.name": "海蓝宝石组合戒指+",
+  "crafting.iridium-alpha.name": "铱环Alpha",
+  "crafting.napalm-plus.name": "燃烧弹戒指+",
+  "crafting.napalm-plus2.name": "燃烧弹戒指++",
+  "crafting.napalm-plus3.name": "燃烧弹戒指+++",
+  "crafting.chef.name": "助手戒指",
+  "crafting.chef2.name": "厨师戒指",
+  "crafting.chef3.name": "主厨戒指",
+  "crafting.lucky-plus.name": "祝福戒指",
+  "crafting.lucky-plus2.name": "命运戒指",
+  "crafting.extrafish1.name": "多鱼戒指 I",
+  "crafting.extrafish2.name": "多鱼戒指 II",
+  "crafting.extrafish3.name": "多鱼戒指 III",
+  "crafting.quality1.name": "品质戒指 I",
+  "crafting.quality2.name": "品质戒指 II",
+  "crafting.quality3.name": "品质戒指 III",
+  "crafting.lfish.name": "传说鱼戒指",
+  
+  // ==================== 配置选项 ====================
+  
+  // 配置 - 分类标题
+  "config.section.burglar.title": "窃贼戒指配置",
+  "config.section.burglar.tooltip": "配置窃贼戒指增强版的效果参数",
+  "config.section.monster-spawn.title": "怪物生成戒指配置",
+  "config.section.monster-spawn.tooltip": "配置怪物生成率倍率参数",
+  "config.section.combined-rings.title": "组合戒指配置",
+  "config.section.combined-rings.tooltip": "配置各种组合戒指的效果参数",
+  "config.section.iridium-alpha.title": "铱环Alpha配置",
+  "config.section.iridium-alpha.tooltip": "配置铱环Alpha的各项属性加成",
+  "config.section.napalm.title": "燃烧弹戒指配置",
+  "config.section.napalm.tooltip": "配置燃烧弹戒指的爆炸半径",
+  "config.section.lucky.title": "幸运戒指配置",
+  "config.section.lucky.tooltip": "配置幸运戒指的效果参数",
+  "config.section.fishing.title": "钓鱼戒指配置",
+  "config.section.fishing.tooltip": "配置钓鱼戒指的效果参数",
+  "config.section.recipes.title": "配方开关配置",
+  "config.section.recipes.tooltip": "启用或禁用各种戒指的合成配方",
+  "config.section.patches.title": "补丁开关配置",
+  "config.section.patches.tooltip": "启用或禁用各种功能补丁",
+
+  // 配置 - 窃贼戒指
+  "config.burglarringplus.rounds.name": "窃贼戒指+掉落轮数",
+  "config.burglarringplus.rounds.tooltip": "佩戴窃贼戒指+时的额外物品掉落轮数",
+  "config.burglarringplus2.rounds.name": "窃贼戒指++掉落轮数",
+  "config.burglarringplus2.rounds.tooltip": "佩戴窃贼戒指++时的额外物品掉落轮数",
+  "config.burglarringplus3.rounds.name": "窃贼戒指+++掉落轮数",
+  "config.burglarringplus3.rounds.tooltip": "佩戴窃贼戒指+++时的额外物品掉落轮数",
+
+  // 配置 - 怪物生成戒指
+  "config.monsterspawnring.multiplier.name": "生成戒指倍率",
+  "config.monsterspawnring.multiplier.tooltip": "怪物生成戒指的怪物生成倍率",
+  "config.monsterspawnring2.multiplier.name": "生成戒指+倍率",
+  "config.monsterspawnring2.multiplier.tooltip": "怪物生成戒指+的怪物生成倍率",
+  "config.monsterspawnring3.multiplier.name": "生成戒指++倍率",
+  "config.monsterspawnring3.multiplier.tooltip": "怪物生成戒指++的怪物生成倍率",
+  "config.maxmonsterspawnchance.name": "最大生成概率",
+  "config.maxmonsterspawnchance.tooltip": "怪物生成概率的最大上限",
+  "config.affectskullcavern.name": "影响沙漠矿洞",
+  "config.affectskullcavern.tooltip": "是否在沙漠矿洞中生效",
+  "config.affectvolcanodungeon.name": "影响火山地牢",
+  "config.affectvolcanodungeon.tooltip": "是否在火山地牢中生效",
+  
+  // 配置 - 组合戒指
+  "config.ruby-combined.multiplier.name": "红宝石组合戒指倍率",
+  "config.ruby-combined.multiplier.tooltip": "红宝石组合戒指的攻击倍率加成",
+  "config.ruby-combined-plus.multiplier.name": "红宝石组合戒指+倍率",
+  "config.ruby-combined-plus.multiplier.tooltip": "红宝石组合戒指+的攻击倍率加成",
+
+  "config.emerald-combined.multiplier.name": "绿宝石组合戒指倍率",
+  "config.emerald-combined.multiplier.tooltip": "绿宝石组合戒指的武器速度加成", 
+  "config.emerald-combined-plus.multiplier.name": "绿宝石组合戒指+倍率",
+  "config.emerald-combined-plus.multiplier.tooltip": "绿宝石组合戒指+的武器速度加成",
+
+  "config.jade-combined.multiplier.name": "玉石组合戒指倍率",
+  "config.jade-combined.multiplier.tooltip": "玉石组合戒指的暴击力量加成",
+  "config.jade-combined-plus.multiplier.name": "玉石组合戒指+倍率",
+  "config.jade-combined-plus.multiplier.tooltip": "玉石组合戒指+的暴击力量加成",
+
+  "config.aquamarine-combined.multiplier.name": "海蓝宝石组合戒指倍率",
+  "config.aquamarine-combined.multiplier.tooltip": "海蓝宝石组合戒指的暴击机会加成",
+  "config.aquamarine-combined-plus.multiplier.name": "海蓝宝石组合戒指+倍率",
+  "config.aquamarine-combined-plus.multiplier.tooltip": "海蓝宝石组合戒指+的暴击机会加成",
+
+  // 配置 - 铱环Alpha
+  "config.iridium-alpha.attack.multiplier.name": "铱环攻击倍率加成",
+  "config.iridium-alpha.attack.multiplier.tooltip": "铱环Alpha的攻击倍率加成",
+  "config.iridium-alpha.speed.multiplier.name": "铱环武器速度加成",
+  "config.iridium-alpha.speed.multiplier.tooltip": "铱环Alpha的武器速度加成",
+  "config.iridium-alpha.crit-power.multiplier.name": "铱环暴击力量加成",
+  "config.iridium-alpha.crit-power.multiplier.tooltip": "铱环Alpha的暴击力量加成", 
+  "config.iridium-alpha.crit-chance.multiplier.name": "铱环暴击机会加成",
+  "config.iridium-alpha.crit-chance.multiplier.tooltip": "铱环Alpha的暴击机会加成",
+  
+  // 配置 - 燃烧弹戒指
+  "config.napalmringplus.radius.name": "燃烧弹戒指+爆炸半径",
+  "config.napalmringplus.radius.tooltip": "燃烧弹戒指+的爆炸半径",
+  "config.napalmringplus2.radius.name": "燃烧弹戒指++爆炸半径",
+  "config.napalmringplus2.radius.tooltip": "燃烧弹戒指++的爆炸半径", 
+  "config.napalmringplus3.radius.name": "燃烧弹戒指+++爆炸半径",
+  "config.napalmringplus3.radius.tooltip": "燃烧弹戒指+++的爆炸半径",
+  
+  // 配置 - 幸运戒指
+  "config.luckyringplus.luck.name": "祝福戒指幸运加成",
+  "config.luckyringplus.luck.tooltip": "祝福戒指提供的幸运值加成",
+  "config.luckyringplus2.luck.name": "命运戒指幸运加成",
+  "config.luckyringplus2.luck.tooltip": "命运戒指提供的幸运值加成",
+
+  // 配置 - 钓鱼戒指
+  "config.extra-fish-num1.name": "钓鱼戒指1额外数量",
+  "config.extra-fish-num1.tooltip": "佩戴钓鱼戒指1时的额外钓鱼数量",
+  "config.extra-fish-num2.name": "钓鱼戒指2额外数量",
+  "config.extra-fish-num2.tooltip": "佩戴钓鱼戒指2时的额外钓鱼数量",
+  "config.extra-fish-num3.name": "钓鱼戒指3额外数量",
+  "config.extra-fish-num3.tooltip": "佩戴钓鱼戒指3时的额外钓鱼数量",
+  "config.enable-fish-ring-patch.name": "启用钓鱼戒指效果",
+  "config.enable-fish-ring-patch.tooltip": "如果钓鱼时发生错误，请尝试禁用本项。必须重启。",
+  "config.enable-notfish-available.name": "使非鱼类享受品质加成（哇，铱星垃圾！）",
+  "config.enable-notfish-available.tooltip": "如果启用，品质戒指也将影响非鱼类物品（垃圾、海藻等）",
+
+  // 配置 - 配方开关
+  "config.enable-combined-ring-recipes.name": "启用组合戒指配方（需要重启）",
+  "config.enable-combined-ring-recipes.tooltip": "是否启用组合戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-iridium-band-recipe.name": "启用铱环配方（需要重启）",
+  "config.enable-iridium-band-recipe.tooltip": "是否启用铱环Alpha的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-burglar-ring-recipes.name": "启用窃贼戒指配方（需要重启）",
+  "config.enable-burglar-ring-recipes.tooltip": "是否启用窃贼戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-monster-spawn-ring-recipes.name": "启用怪物生成戒指配方（需要重启）",
+  "config.enable-monster-spawn-ring-recipes.tooltip": "是否启用怪物生成戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-napalm-ring-recipes.name": "启用炸弹戒指配方（需要重启）",
+  "config.enable-napalm-ring-recipes.tooltip": "是否启用炸弹戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-chef-ring-recipes.name": "启用厨师戒指配方（需要重启）",
+  "config.enable-chef-ring-recipes.tooltip": "是否启用厨师戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-lucky-ring-recipes.name": "启用幸运戒指配方（需要重启）",
+  "config.enable-lucky-ring-recipes.tooltip": "是否启用幸运戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-fish-ring-recipes.name": "启用钓鱼戒指配方（需要重启）",
+  "config.enable-fish-ring-recipes.tooltip": "是否启用钓鱼戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-lfish-ring-recipe.name": "启用传说鱼戒指配方（需要重启）",
+  "config.enable-lfish-ring-recipe.tooltip": "是否启用传说鱼戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  "config.enable-quality-ring-recipes.name": "启用品质戒指配方（需要重启）",
+  "config.enable-quality-ring-recipes.tooltip": "是否启用品质戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+
+  // 配置 - 补丁开关
+  "config.enable-chef-ring-patch.name": "启用厨师戒指效果",
+  "config.enable-chef-ring-patch.tooltip": "如果制作菜品时发生错误，请尝试禁用本项。必须重启。",
+  "config.enable-lfish-ring-patch.name": "启用传说鱼戒指效果",
+  "config.enable-lfish-ring-patch.tooltip": "如果在钓传说鱼时发生错误，请尝试禁用本项。必须重启。"
+}
