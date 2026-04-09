@@ -93,6 +93,14 @@
   // Legendary Fish Ring - Description
   "ring.lfish.description": "A ring that allows you to catch Legendary Fish II anytime.",
   
+  // ========== NEW: Magic Chef Rings ==========
+  "ring.magicchef1.name": "Magic Chef Ring +",
+  "ring.magicchef1.description": "Brings another dish from a parallel world nearby.",
+  "ring.magicchef2.name": "Magic Chef Ring ++",
+  "ring.magicchef2.description": "Santa's little helpers make extra portions for you.",
+  "ring.magicchef3.name": "Magic Chef Ring +++",
+  "ring.magicchef3.description": "It's actually a phone – your takeout has arrived.",
+  
   // ==================== CRAFTING RECIPE NAMES ====================
   "crafting.burglar-plus.name": "Burglar Ring+",
   "crafting.burglar-plus2.name": "Burglar Ring++",
@@ -124,6 +132,10 @@
   "crafting.quality2.name": "Quality Ring II",
   "crafting.quality3.name": "Quality Ring III",
   "crafting.lfish.name": "Legendary Fish Ring",
+  // ========== NEW: Magic Chef Ring crafting names ==========
+  "crafting.magicchef1.name": "Magic Chef Ring +",
+  "crafting.magicchef2.name": "Magic Chef Ring ++",
+  "crafting.magicchef3.name": "Magic Chef Ring +++",
   
   // ==================== CONFIGURATION ====================
   
@@ -142,6 +154,9 @@
   "config.section.lucky.tooltip": "Configure the effects of Lucky Ring enhancements",
   "config.section.fishing.title": "Fishing Ring Configuration",
   "config.section.fishing.tooltip": "Configure the effects of fishing rings",
+  // ========== NEW: Magic Chef Ring section ==========
+  "config.section.magic-chef-ring.title": "Magic Chef Ring Configuration",
+  "config.section.magic-chef-ring.tooltip": "Configure the crafting quantity multiplier of Magic Chef Rings",
   "config.section.recipes.title": "Recipe Settings",
   "config.section.recipes.tooltip": "Enable or disable various ring crafting recipes",
   "config.section.patches.title": "Patch Settings",
@@ -198,7 +213,7 @@
   "config.iridium-alpha.crit-power.multiplier.name": "Iridium Band Crit Power Multiplier",
   "config.iridium-alpha.crit-power.multiplier.tooltip": "Critical power multiplier for Iridium Band Alpha",
   "config.iridium-alpha.crit-chance.multiplier.name": "Iridium Band Crit Chance Multiplier",
-  "config.iridium-alpha.crit-chance.tooltip": "Critical chance multiplier for Iridium Band Alpha",
+  "config.iridium-alpha.crit-chance.multiplier.tooltip": "Critical chance multiplier for Iridium Band Alpha",
   
   // Config - Napalm Rings
   "config.napalmringplus.radius.name": "Napalm Ring+ Explosion Radius",
@@ -226,6 +241,14 @@
   "config.enable-notfish-available.name": "Enable quality bonuses for non-fish (Wow, iridium trash!)",
   "config.enable-notfish-available.tooltip": "If enabled, quality rings will also affect non-fish items (trash, algae, etc.)",
 
+  // ========== NEW: Magic Chef Ring Multiplier Options ==========
+  "config.magic-chef-ring1.multiplier.name": "Magic Chef Ring + Multiplier",
+  "config.magic-chef-ring1.multiplier.tooltip": "Crafted item quantity multiplier when wearing Magic Chef Ring +",
+  "config.magic-chef-ring2.multiplier.name": "Magic Chef Ring ++ Multiplier",
+  "config.magic-chef-ring2.multiplier.tooltip": "Crafted item quantity multiplier when wearing Magic Chef Ring ++",
+  "config.magic-chef-ring3.multiplier.name": "Magic Chef Ring +++ Multiplier",
+  "config.magic-chef-ring3.multiplier.tooltip": "Crafted item quantity multiplier when wearing Magic Chef Ring +++",
+
   // Config - Recipe Settings
   "config.enable-combined-ring-recipes.name": "Enable Combined Ring Recipes (Requires Restart)",
   "config.enable-combined-ring-recipes.tooltip": "Whether to enable combined ring crafting recipes. Since recipes are cached at startup, a game restart is required",
@@ -247,10 +270,15 @@
   "config.enable-lfish-ring-recipe.tooltip": "Whether to enable Legendary Fish Ring crafting recipe. Since recipes are cached at startup, a game restart is required",
   "config.enable-quality-ring-recipes.name": "Enable Quality Ring Recipes (Requires Restart)",
   "config.enable-quality-ring-recipes.tooltip": "Whether to enable Quality Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
+  // ========== NEW: Magic Chef Ring Recipe Switch ==========
+  "config.enable-magic-chef-ring-recipes.name": "Enable Magic Chef Ring Recipes (Requires Restart)",
+  "config.enable-magic-chef-ring-recipes.tooltip": "Whether to enable Magic Chef Ring crafting recipes. Since recipes are cached at startup, a game restart is required",
 
   // Config - Patch Settings
   "config.enable-chef-ring-patch.name": "Enable Chef Ring Effects",
   "config.enable-chef-ring-patch.tooltip": "If errors occur when cooking dishes, try disabling this option. Requires restart.",
   "config.enable-lfish-ring-patch.name": "Enable Legendary Fish Ring Effects",
-  "config.enable-lfish-ring-patch.tooltip": "If errors occur when fishing legendary fish, try disabling this option. Requires restart."
+  "config.enable-lfish-ring-patch.tooltip": "If errors occur when fishing legendary fish, try disabling this option. Requires restart.",
+  "config.enable-crop-quality-ring-patch.name": "Enable Crop Quality Ring Patch",
+  "config.enable-crop-quality-ring-patch.tooltip": "If errors occur when harvesting crops, try disabling this option. Requires restart.",
 }
