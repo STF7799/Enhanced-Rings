@@ -1,0 +1,63 @@
+Enhanced Rings Non-Commercial Source License 1.0
+Copyright (c) 2026 STF7799
+
+This license applies to the source code, compiled binaries, documentation,
+and original assets of Enhanced Rings, unless a file explicitly says otherwise.
+
+1. Grant
+
+Subject to the conditions below, you are granted permission to use, copy,
+modify, merge, publish, distribute, and sublicense the Software for
+Non-Commercial purposes only.
+
+2. Non-Commercial restriction
+
+You may not use, distribute, or make the Software available for Commercial
+Use. "Commercial Use" means use primarily intended for or directed toward
+commercial advantage or monetary compensation, including:
+
+- selling the Software or a modified version;
+- paid downloads, paid access, or paywalled updates;
+- including the Software in a paid modpack or paid bundle;
+- charging a fee for installation, support, or distribution;
+- distributing the Software in a way that is primarily an advertisement or
+  a promotion for a paid product or service.
+
+Voluntary donations are permitted only if they are not required to access,
+download, or use the Software.
+
+3. Conditions
+
+If you distribute the Software or a modified version, you must:
+
+- keep this license and the copyright notice;
+- clearly mark modified versions as modified;
+- provide the corresponding source code for any distributed modified version;
+- not impose additional legal or technical restrictions on recipients that
+  conflict with this license.
+
+4. Third-party material
+
+This license does not apply to Stardew Valley, SMAPI, other mods, or any
+third-party code, assets, or trademarks. Those remain under their respective
+licenses and ownership.
+
+5. Termination
+
+Your rights under this license terminate automatically if you violate its
+terms. On termination, you must stop distributing the Software and destroy
+or remove unauthorized copies, except where applicable law requires otherwise.
+
+6. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE
+OR ITS USE.
+
+7. Source-available notice
+
+Because this license limits use to Non-Commercial purposes, it is a
+source-available license, not an OSI-approved open-source license.
+SPDX-License-Identifier: LicenseRef-EnhancedRings-NC-1.0
