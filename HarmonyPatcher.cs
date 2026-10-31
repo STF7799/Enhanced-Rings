@@ -17,7 +17,6 @@ namespace Enhanced_Rings
         {
             _modId = modId;
             _harmony = new Harmony(modId);
-
         }
 
         public void ApplyPatches()
@@ -54,13 +53,6 @@ namespace Enhanced_Rings
                     prefix: new HarmonyMethod(typeof(CookQualityHandler), nameof(CookQualityHandler.ClickCraftingRecipe_Prefix))
                 );
             }
-            if (config.EnableFishRingPatch)
-            {
-                _harmony.Patch(
-                    original: AccessTools.Method(typeof(FishingRod), nameof(FishingRod.pullFishFromWater)),
-                    prefix: new HarmonyMethod(typeof(FishCaughtHandler), nameof(FishCaughtHandler.PullFishFromWater_Prefix))
-                );
-            }
             if (config.EnableCropQualityRingPatch)
             {
                 try
@@ -71,6 +63,19 @@ namespace Enhanced_Rings
                 {
                     ModEntry.GetInstance().Monitor.Log($"Failed to apply crop quality ring patch: {ex}", LogLevel.Error);
                 }
+            }
+
+            var fishingOverhaulMod = ModEntry.GetInstance().Helper.ModRegistry.Get("Hiztaar.FishingOverhaulRevived");
+            if (fishingOverhaulMod != null && config.EnableFishRingPatch)
+            {
+                FishingOverhaulCompatibility.Apply(_harmony);
+            }
+            else if (config.EnableFishRingPatch)
+            {
+                _harmony.Patch(
+                    original: AccessTools.Method(typeof(FishingRod), nameof(FishingRod.pullFishFromWater)),
+                    prefix: new HarmonyMethod(typeof(FishCaughtHandler), nameof(FishCaughtHandler.PullFishFromWater_Prefix))
+                );
             }
         }
     }

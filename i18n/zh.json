@@ -93,6 +93,14 @@
   // 传说鱼戒指 - 描述
   "ring.lfish.description": "可以随时钓到传说鱼二代的戒指。",
   
+  // ========== 新增：魔法厨师戒指 ==========
+  "ring.magicchef1.name": "魔法厨师戒指 +",
+  "ring.magicchef1.description": "从附近的平行世界弄来另一盘菜",
+  "ring.magicchef2.name": "魔法厨师戒指 ++",
+  "ring.magicchef2.description": "让圣诞老人的小助手为你制作更多",
+  "ring.magicchef3.name": "魔法厨师戒指 +++",
+  "ring.magicchef3.description": "其实这是电话，你的外卖到了",
+  
   // ==================== 制作配方名称 ====================
   "crafting.burglar-plus.name": "窃贼戒指+",
   "crafting.burglar-plus2.name": "窃贼戒指++",
@@ -124,6 +132,10 @@
   "crafting.quality2.name": "品质戒指 II",
   "crafting.quality3.name": "品质戒指 III",
   "crafting.lfish.name": "传说鱼戒指",
+  // ========== 新增：魔法厨师戒指配方名称 ==========
+  "crafting.magicchef1.name": "魔法厨师戒指 +",
+  "crafting.magicchef2.name": "魔法厨师戒指 ++",
+  "crafting.magicchef3.name": "魔法厨师戒指 +++",
   
   // ==================== 配置选项 ====================
   
@@ -142,6 +154,9 @@
   "config.section.lucky.tooltip": "配置幸运戒指的效果参数",
   "config.section.fishing.title": "钓鱼戒指配置",
   "config.section.fishing.tooltip": "配置钓鱼戒指的效果参数",
+  // ========== 新增：魔法厨师戒指配置节 ==========
+  "config.section.magic-chef-ring.title": "魔法厨师戒指配置",
+  "config.section.magic-chef-ring.tooltip": "配置魔法厨师戒指的制作数量倍率",
   "config.section.recipes.title": "配方开关配置",
   "config.section.recipes.tooltip": "启用或禁用各种戒指的合成配方",
   "config.section.patches.title": "补丁开关配置",
@@ -226,6 +241,14 @@
   "config.enable-notfish-available.name": "使非鱼类享受品质加成（哇，铱星垃圾！）",
   "config.enable-notfish-available.tooltip": "如果启用，品质戒指也将影响非鱼类物品（垃圾、海藻等）",
 
+  // ========== 新增：魔法厨师戒指倍率选项 ==========
+  "config.magic-chef-ring1.multiplier.name": "魔法厨师戒指 + 倍率",
+  "config.magic-chef-ring1.multiplier.tooltip": "佩戴魔法厨师戒指 + 时制作物品的数量倍率",
+  "config.magic-chef-ring2.multiplier.name": "魔法厨师戒指 ++ 倍率",
+  "config.magic-chef-ring2.multiplier.tooltip": "佩戴魔法厨师戒指 ++ 时制作物品的数量倍率",
+  "config.magic-chef-ring3.multiplier.name": "魔法厨师戒指 +++ 倍率",
+  "config.magic-chef-ring3.multiplier.tooltip": "佩戴魔法厨师戒指 +++ 时制作物品的数量倍率",
+
   // 配置 - 配方开关
   "config.enable-combined-ring-recipes.name": "启用组合戒指配方（需要重启）",
   "config.enable-combined-ring-recipes.tooltip": "是否启用组合戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
@@ -247,10 +270,15 @@
   "config.enable-lfish-ring-recipe.tooltip": "是否启用传说鱼戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
   "config.enable-quality-ring-recipes.name": "启用品质戒指配方（需要重启）",
   "config.enable-quality-ring-recipes.tooltip": "是否启用品质戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
+  // ========== 新增：魔法厨师戒指配方开关 ==========
+  "config.enable-magic-chef-ring-recipes.name": "启用魔法厨师戒指配方（需要重启）",
+  "config.enable-magic-chef-ring-recipes.tooltip": "是否启用魔法厨师戒指的合成配方，由于配方在启动时缓存，故需要重启游戏",
 
   // 配置 - 补丁开关
   "config.enable-chef-ring-patch.name": "启用厨师戒指效果",
   "config.enable-chef-ring-patch.tooltip": "如果制作菜品时发生错误，请尝试禁用本项。必须重启。",
   "config.enable-lfish-ring-patch.name": "启用传说鱼戒指效果",
-  "config.enable-lfish-ring-patch.tooltip": "如果在钓传说鱼时发生错误，请尝试禁用本项。必须重启。"
+  "config.enable-lfish-ring-patch.tooltip": "如果在钓传说鱼时发生错误，请尝试禁用本项。必须重启。",
+  "config.enable-crop-quality-ring-patch.name": "启用作物品质戒指效果",
+  "config.enable-crop-quality-ring-patch.tooltip": "如果收获作物时发生错误，请尝试禁用本项。必须重启。",
 }

@@ -33,7 +33,7 @@ namespace Enhanced_Rings
                 reset: () => ResetConfig(),
                 save: () => SaveConfig()
             );
-
+            //一定要载入配置
             AddBurglarRingSettings(configMenu);
             AddMonsterSpawnRingSettings(configMenu);
             AddCombinedRingSettings(configMenu);
@@ -41,6 +41,7 @@ namespace Enhanced_Rings
             AddNapalmRingSettings(configMenu);
             AddLuckyRingSettings(configMenu);
             AddFishingRingSettings(configMenu);
+            AddMagicChefRingSettings(configMenu);
             AddRecipeSettings(configMenu);
             AddPatchSettings(configMenu);
         }
@@ -434,6 +435,45 @@ namespace Enhanced_Rings
             );
         }
 
+        private void AddMagicChefRingSettings(IGenericModConfigMenuApi configMenu)
+        {
+            configMenu.AddSectionTitle(
+                mod: _manifest,
+                text: () => _helper.Translation.Get("config.section.magic-chef-ring.title"),
+                tooltip: () => _helper.Translation.Get("config.section.magic-chef-ring.tooltip")
+            );
+
+            configMenu.AddNumberOption(
+                mod: _manifest,
+                name: () => _helper.Translation.Get("config.magic-chef-ring1.multiplier.name"),
+                tooltip: () => _helper.Translation.Get("config.magic-chef-ring1.multiplier.tooltip"),
+                getValue: () => _config.MagicChefRing1Multiplier,
+                setValue: value => _config.MagicChefRing1Multiplier = value,
+                min: 1,
+                max: 10
+            );
+
+            configMenu.AddNumberOption(
+                mod: _manifest,
+                name: () => _helper.Translation.Get("config.magic-chef-ring2.multiplier.name"),
+                tooltip: () => _helper.Translation.Get("config.magic-chef-ring2.multiplier.tooltip"),
+                getValue: () => _config.MagicChefRing2Multiplier,
+                setValue: value => _config.MagicChefRing2Multiplier = value,
+                min: 1,
+                max: 10
+            );
+
+            configMenu.AddNumberOption(
+                mod: _manifest,
+                name: () => _helper.Translation.Get("config.magic-chef-ring3.multiplier.name"),
+                tooltip: () => _helper.Translation.Get("config.magic-chef-ring3.multiplier.tooltip"),
+                getValue: () => _config.MagicChefRing3Multiplier,
+                setValue: value => _config.MagicChefRing3Multiplier = value,
+                min: 1,
+                max: 10
+            );
+        }
+
         private void AddRecipeSettings(IGenericModConfigMenuApi configMenu)
         {
             configMenu.AddSectionTitle(
@@ -520,6 +560,14 @@ namespace Enhanced_Rings
                 tooltip: () => _helper.Translation.Get("config.enable-quality-ring-recipes.tooltip"),
                 getValue: () => _config.EnableQualityRingRecipes,
                 setValue: value => _config.EnableQualityRingRecipes = value
+            );
+
+            configMenu.AddBoolOption(
+                mod: _manifest,
+                name: () => _helper.Translation.Get("config.enable-magic-chef-ring-recipes.name"),
+                tooltip: () => _helper.Translation.Get("config.enable-magic-chef-ring-recipes.tooltip"),
+                getValue: () => _config.EnableMagicChefRingRecipes,
+                setValue: value => _config.EnableMagicChefRingRecipes = value
             );
         }
 
@@ -619,6 +667,7 @@ namespace Enhanced_Rings
             _config.EnableChefRingRecipes = true;
             _config.EnableLFishRingRecipe = true;
             _config.EnableFishRingRecipes = true;
+            _config.EnableMagicChefRingRecipes = true;
 
             // 补丁开关配置
             _config.EnableChefRingPatch = true;

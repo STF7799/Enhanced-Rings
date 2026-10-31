@@ -43,5 +43,9 @@
         public const string QualityRing1 = "QualityRing1";
         public const string QualityRing2 = "QualityRing2";
         public const string QualityRing3 = "QualityRing3";
+
+        public const string MagicChefRing1 = "MagicChefRing1";
+        public const string MagicChefRing2 = "MagicChefRing2";
+        public const string MagicChefRing3 = "MagicChefRing3";
     }
 }

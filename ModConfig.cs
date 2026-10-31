@@ -47,6 +47,11 @@ namespace Enhanced_Rings
         public int ExtraFishNum2 { get; set; } = 3;
         public int ExtraFishNum3 { get; set; } = 5;
 
+        // ========== 魔法厨师戒指倍数配置 ==========
+        public int MagicChefRing1Multiplier { get; set; } = 2;
+        public int MagicChefRing2Multiplier { get; set; } = 3;
+        public int MagicChefRing3Multiplier { get; set; } = 5;
+
         // ========== 其他配置 ==========
         public bool EnableNotfishAvailable { get; set; } = false;
 
@@ -61,6 +66,7 @@ namespace Enhanced_Rings
         public bool EnableLFishRingRecipe { get; set; } = true;
         public bool EnableFishRingRecipes { get; set; } = true;
         public bool EnableQualityRingRecipes { get; set; } = true;
+        public bool EnableMagicChefRingRecipes { get; set; } = true;
 
         // ========== 补丁开关配置 ==========
         public bool EnableChefRingPatch { get; set; } = true;

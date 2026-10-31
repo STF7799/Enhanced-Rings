@@ -43,6 +43,7 @@ namespace Enhanced_Rings
             var codes = new List<CodeInstruction>(instructions);
             int cropQualityLocalIndex = -1;
 
+            // 尝试找到 MathHelper.Clamp 调用后的第一个存储指令（品质变量）
             for (int i = 0; i < codes.Count; i++)
             {
                 if (codes[i].opcode == OpCodes.Call &&
@@ -50,44 +51,55 @@ namespace Enhanced_Rings
                     methodInfo.Name == "Clamp" &&
                     methodInfo.DeclaringType == typeof(Microsoft.Xna.Framework.MathHelper))
                 {
-                    if (i + 1 < codes.Count)
+                    // 从 Clamp 之后开始搜索第一个 stloc 或 stloc.s
+                    for (int j = i + 1; j < codes.Count; j++)
                     {
-                        var nextInstruction = codes[i + 1];
-                        if (nextInstruction.opcode == OpCodes.Stloc_S)
+                        if (codes[j].opcode == OpCodes.Stloc_S || codes[j].opcode == OpCodes.Stloc)
                         {
-                            if (nextInstruction.operand is LocalBuilder localBuilder)
+                            if (codes[j].operand is LocalBuilder localBuilder)
                             {
                                 cropQualityLocalIndex = localBuilder.LocalIndex;
+                                break;
                             }
-                            else if (nextInstruction.operand is int localIndex)
+                            else if (codes[j].operand is int localIndex)
                             {
                                 cropQualityLocalIndex = localIndex;
+                                break;
                             }
                         }
                     }
-                    break;
+                    if (cropQualityLocalIndex != -1)
+                        break;
                 }
             }
 
-            for (int i = 0; i < codes.Count; i++)
+            if (cropQualityLocalIndex == -1)
             {
-                yield return codes[i];
+                ModEntry.GetInstance().Monitor.Log("Could not locate crop quality local variable. Crop quality ring effect will not work.", LogLevel.Warn);
+                // 返回原始指令，避免破坏游戏
+                foreach (var code in codes)
+                    yield return code;
+                yield break;
+            }
 
-                if (codes[i].opcode == OpCodes.Stloc_S &&
-                    ((codes[i].operand is LocalBuilder lb && lb.LocalIndex == cropQualityLocalIndex) ||
-                     (codes[i].operand is int idx && idx == cropQualityLocalIndex)))
+            // 遍历所有指令，在每次存储到目标变量后插入调整代码
+            foreach (var code in codes)
+            {
+                yield return code;
+
+                // 检查当前指令是否存储到目标变量
+                if ((code.opcode == OpCodes.Stloc_S || code.opcode == OpCodes.Stloc) &&
+                    ((code.operand is LocalBuilder lb && lb.LocalIndex == cropQualityLocalIndex) ||
+                     (code.operand is int idx && idx == cropQualityLocalIndex)))
                 {
+                    // 插入调整代码：加载变量 → 调用调整方法 → 存回变量
                     yield return new CodeInstruction(OpCodes.Ldloc_S, cropQualityLocalIndex);
-
-                    // 调用调整方法
-                    yield return new CodeInstruction(OpCodes.Call,
-                        AccessTools.Method(typeof(CropQualityPatcher), "AdjustCropQuality"));
-
-                    // 存储调整后的值
+                    yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CropQualityPatcher), "AdjustCropQuality"));
                     yield return new CodeInstruction(OpCodes.Stloc_S, cropQualityLocalIndex);
                 }
             }
         }
+
         public static int AdjustCropQuality(int cropQuality)
         {
             try
@@ -114,12 +126,6 @@ namespace Enhanced_Rings
                         cropQuality = 1;
                     }
                 }
-
-                if (originalQuality != cropQuality)
-                {
-                    ModEntry.GetInstance().Monitor.Log($"Adjusted crop quality from {originalQuality} to {cropQuality}", LogLevel.Trace);
-                }
-
                 return cropQuality;
             }
             catch (Exception ex)

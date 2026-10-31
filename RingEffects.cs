@@ -20,17 +20,17 @@ namespace Enhanced_Rings
 
                 if (itemId == "BurglarRingPlus")
                 {
-                    effects.Speed.Value += 1f;
+                    //effects.Speed.Value += 1f;
                 }
                 else if (itemId == "BurglarRingPlus2")
                 {
-                    effects.Speed.Value += 1f;
-                    effects.Attack.Value += 1f;
+                    //effects.Speed.Value += 1f;
+                    //effects.Attack.Value += 1f;
                 }
                 else if (itemId == "BurglarRingPlus3")
                 {
-                    effects.Speed.Value += 2f;
-                    effects.Attack.Value += 1f;
+                    //effects.Speed.Value += 2f;
+                    //effects.Attack.Value += 1f;
                 }
                 else if (itemId == "RubyRingCombined")
                 {

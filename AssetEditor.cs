@@ -90,6 +90,12 @@ namespace Enhanced_Rings
                 e.LoadFromModFile<Texture2D>("assets/QualityRing.png", AssetLoadPriority.Exclusive);
                 return;
             }
+
+            if (e.NameWithoutLocale.IsEquivalentTo($"Mods/{_modId}/MCR"))
+            {
+                e.LoadFromModFile<Texture2D>("assets/MCR.png", AssetLoadPriority.Exclusive);
+                return;
+            }
         }
 
         private void EditObjectsData(IDictionary<string, ObjectData> data)
@@ -541,6 +547,51 @@ namespace Enhanced_Rings
                 CanBeTrashed = true,
                 ContextTags = new List<string> { "color_purple", "ring_item" }
             };
+
+            data["MagicChefRing1"] = new ObjectData
+            {
+                Name = "MagicChefRing1",
+                DisplayName = _i18n.Get("ring.magicchef1.name"),
+                Description = _i18n.Get("ring.magicchef1.description"),
+                Type = "Ring",
+                Category = -96,
+                Price = 2000,
+                Texture = $"Mods/{_modId}/MCR",
+                SpriteIndex = 0,
+                CanBeGivenAsGift = false,
+                CanBeTrashed = true,
+                ContextTags = new List<string> { "color_white", "ring_item" }
+            };
+
+            data["MagicChefRing2"] = new ObjectData
+            {
+                Name = "MagicChefRing2",
+                DisplayName = _i18n.Get("ring.magicchef2.name"),
+                Description = _i18n.Get("ring.magicchef2.description"),
+                Type = "Ring",
+                Category = -96,
+                Price = 5000,
+                Texture = $"Mods/{_modId}/MCR",
+                SpriteIndex = 1,
+                CanBeGivenAsGift = false,
+                CanBeTrashed = true,
+                ContextTags = new List<string> { "color_gold", "ring_item" }
+            };
+
+            data["MagicChefRing3"] = new ObjectData
+            {
+                Name = "MagicChefRing3",
+                DisplayName = _i18n.Get("ring.magicchef3.name"),
+                Description = _i18n.Get("ring.magicchef3.description"),
+                Type = "Ring",
+                Category = -96,
+                Price = 10000,
+                Texture = $"Mods/{_modId}/MCR",
+                SpriteIndex = 2,
+                CanBeGivenAsGift = false,
+                CanBeTrashed = true,
+                ContextTags = new List<string> { "color_rainbow", "ring_item" }
+            };
         }
 
         private void EditCraftingRecipes(IDictionary<string, string> data)
@@ -627,6 +678,15 @@ namespace Enhanced_Rings
                 data["QualityRing2"] = $"QualityRing1 1 92 1998 881 300 336 30/Home/QualityRing2/false/Foraging 7/{_i18n.Get("crafting.quality2.name")}";
                 
                 data["QualityRing3"] = $"QualityRing2 1 337 10 910 5 74 3 768 500 769 500/Home/QualityRing3/false/Foraging 10/{_i18n.Get("crafting.quality3.name")}";
+            }
+
+            if (config.EnableMagicChefRingRecipes)
+            {
+                data["MagicChefRing1"] = $"787 3 771 20 167 3/Home/MagicChefRing1/false/Farming 1/{_i18n.Get("crafting.magicchef1.name")}";
+
+                data["MagicChefRing2"] = $"MagicChefRing1 1 335 50 787 10 334 50/Home/MagicChefRing2/false/Farming 2/{_i18n.Get("crafting.magicchef2.name")}";
+
+                data["MagicChefRing3"] = $"MagicChefRing2 1 787 30 336 50 337 10/Home/MagicChefRing3/false/Farming 3/{_i18n.Get("crafting.magicchef3.name")}";
             }
         }
 
